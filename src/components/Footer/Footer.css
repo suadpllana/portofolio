@@ -1,0 +1,13 @@
+footer {
+    color: white;
+    background-color: rgb(13, 23, 48);
+    padding: 2.5rem;
+    
+}
+footer a{
+   margin-right: 2rem;
+}
+svg:hover{
+    background-color: blue;
+border-radius: 50%;
+}

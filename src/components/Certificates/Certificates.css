@@ -1,0 +1,40 @@
+.certificatesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px
+}
+.certificatesContainer div{
+    height: 21rem;
+    width: 100%;
+    background-color: rgb(68, 143, 38);
+    border-radius: 20px;
+    
+}
+
+#certificates{
+    margin-top: 10rem;
+    color: rgb(54, 54, 212);;
+}
+
+
+
+.certificatesContainer img {
+    height: 100%;
+    width: 100%;
+}
+.certificates{
+    cursor: pointer;
+}
+@media (max-width: 767px){
+ 
+    .certificatesContainer{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 768px) and (max-width: 1222px){
+ 
+    .certificatesContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+   
+}

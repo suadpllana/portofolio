@@ -1,0 +1,96 @@
+.owl-carousel .item{
+    width: 40%;
+    margin-left: 30%
+}
+
+.owl.item   {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+  
+}
+.item h4 ,  .item p{
+    text-align: left;
+}
+.owl-prev span{
+    color: black;
+    font-size: 150px;
+    position: absolute;
+    left: 15rem;
+    top: 4.5rem;
+}
+.owl-next span {
+    color: black;
+    font-size: 150px;
+    position: absolute;
+    right: 15rem;
+    top: 4.5rem;
+}
+.item {
+    height: 22rem;
+    background-color: rgb(237, 224, 224);
+    border-radius: 10px;
+    text-align: left;
+}
+.item p {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.item  img {
+    height: 16rem;
+}
+.item p, .item a, .item h4{
+    margin: 0;
+    margin-bottom: 7px;
+    margin-left: 1.5rem;
+   
+}
+.item a {
+    text-decoration: none;
+    color: purple;
+    font-size: 1.1rem;
+  
+}
+.item h4{
+    font-size: 18px;
+}
+.item{
+    background-color: rgb(219, 214, 214);
+}
+.all-projects{
+    margin-top: 2rem;
+}
+@media (max-width: 767px){
+
+    .home-responsive{
+        display: none;
+    }
+
+  
+    .owl-carousel .item {
+        width: 100%;
+        margin-left: 0;
+    }
+    .owl-next span , .owl-prev span {
+    display: none;
+   }
+  
+
+}
+@media (min-width: 768px) and (max-width: 1222px){
+    .owl-carousel .item {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .owl-next span {
+     right: 5rem;
+    }
+    .owl-prev span {
+        left:  5rem;
+    }
+   
+
+ 
+ 
+   
+}

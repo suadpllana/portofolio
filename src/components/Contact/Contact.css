@@ -1,0 +1,62 @@
+.contact{
+    display: grid;
+    grid-template-columns: 10% 25% 25% 25% 10%;
+    gap: 5px;
+}
+.contact div{
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px;
+    min-height: 20rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.contact .responsive{
+    visibility: hidden;
+    border: none;
+}
+.emoji{
+    margin-top: 1rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.description{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.info{
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#contact{
+    margin-top: 10rem;
+    color: rgb(54, 54, 212);;
+}
+@media (max-width: 767px){
+   
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    
+    .contact .responsive{
+        display: none;
+    }
+ 
+}
+@media (min-width: 768px) and (max-width: 1222px){
+
+    .contact .responsive{
+        display: none;
+    }
+    .contact{
+        grid-template-columns: 1fr 1fr;
+    }
+   
+   
+}
