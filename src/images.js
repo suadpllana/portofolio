@@ -28,13 +28,15 @@ import fCCJS from "./assets/certificates/fCCJS.png"
 import fCCWEB from "./assets/certificates/fCCWEB.png"
 import udemy from "./assets/certificates/udemy.png"
 import modernReact from "./assets/certificates/modernReact.png"
+import gradeCertificate from "./assets/certificates/gradeCertificate.png"
 
 
 export const certificatesImages = {
     fCCJS,
     fCCWEB,
     udemy,
-    modernReact
+    modernReact,
+    gradeCertificate
 }
 
 export const projectImages = {

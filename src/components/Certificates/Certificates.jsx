@@ -59,9 +59,22 @@ const Certificates = () => {
   
   <h4>Modern React and Redux</h4>
   <img 
-    onClick={() => downloadPDF("Modern React and Redux", certificatesImages.fCCJS)} 
+    onClick={() => downloadPDF("Modern React and Redux", certificatesImages.modernReact)} 
     className="certificates" 
     src={certificatesImages.modernReact} 
+    alt="" 
+
+  />
+
+</div>
+
+<div>
+  
+  <h4>Grade Certificate</h4>
+  <img 
+    onClick={() => downloadPDF("Grade Certificate", certificatesImages.gradeCertificate)} 
+    className="certificates" 
+    src={certificatesImages.gradeCertificate} 
     alt="" 
 
   />

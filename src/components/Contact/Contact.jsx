@@ -11,7 +11,7 @@ const Contact = () => {
       <div>
         <p className="emoji">📍</p>
         <h3 className="description">Address</h3>
-        <p className="info">Rruga Janina, Obiliq</p>
+        <p className="info">Obiliq</p>
       </div>
       <div>
         <p className="emoji">📱</p>

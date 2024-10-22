@@ -4,7 +4,7 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top z-2" style={{ minHeight: '55px', height: 'auto' }}>
+    <nav className="navbar navbar-expand-lg  fixed-top z-2" style={{ minHeight: '60px', height: 'auto' }}>
       <div className="container-fluid">
        
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

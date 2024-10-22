@@ -1,5 +1,8 @@
 
-
+.navbar {
+    background-color: white; /* Set background to white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
 
 
 .scroll-link{
