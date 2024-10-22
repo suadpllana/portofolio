@@ -27,12 +27,14 @@ import university from "./assets/projects/university.png"
 import fCCJS from "./assets/certificates/fCCJS.png"
 import fCCWEB from "./assets/certificates/fCCWEB.png"
 import udemy from "./assets/certificates/udemy.png"
+import modernReact from "./assets/certificates/modernReact.png"
 
 
 export const certificatesImages = {
     fCCJS,
     fCCWEB,
-    udemy
+    udemy,
+    modernReact
 }
 
 export const projectImages = {
