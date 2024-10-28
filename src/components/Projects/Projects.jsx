@@ -57,8 +57,8 @@ const Projects = () => {
   
         <div className="item">
           <img src={projectImages.cinema} alt="Image 4" />
-          <h4>Cinema,Sass</h4>
-          <p>React</p>
+          <h4>Cinema</h4>
+          <p>React,Sass</p>
           <a target="_blank" href="https://suadpllana.github.io/cinema/">
             Link to the project
           </a>
@@ -66,8 +66,8 @@ const Projects = () => {
   
         <div className="item">
           <img src={projectImages.music}  alt="Image 5" />
-          <h4>Music Player,Sass</h4>
-          <p>React</p>
+          <h4>Music Player</h4>
+          <p>React,Sass</p>
           <a target="_blank" href="https://suadpllana.github.io/music/">
             Link to the project
           </a>
