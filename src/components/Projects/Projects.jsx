@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.naruto} alt="Image 1" />
           <h4>Naruto</h4>
-          <p>React</p>
+          <p>React,Sass</p>
           <a target="_blank" href="https://suadpllana.github.io/naruto/">
             Link to the project
           </a>
@@ -40,7 +40,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.translation} alt="Image 2" />
           <h4>Translation</h4>
-          <p>React</p>
+          <p>React,Tailwind CSS</p>
           <a target="_blank" href="https://suadpllana.github.io/translate/">
             Link to the project
           </a>
@@ -57,7 +57,7 @@ const Projects = () => {
   
         <div className="item">
           <img src={projectImages.cinema} alt="Image 4" />
-          <h4>Cinema</h4>
+          <h4>Cinema,Sass</h4>
           <p>React</p>
           <a target="_blank" href="https://suadpllana.github.io/cinema/">
             Link to the project
@@ -66,7 +66,7 @@ const Projects = () => {
   
         <div className="item">
           <img src={projectImages.music}  alt="Image 5" />
-          <h4>Music Player</h4>
+          <h4>Music Player,Sass</h4>
           <p>React</p>
           <a target="_blank" href="https://suadpllana.github.io/music/">
             Link to the project
@@ -76,7 +76,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.quiz}  alt="Image 6" />
           <h4>Quiz</h4>
-          <p>React</p>
+          <p>React,Tailwind CSS</p>
           <a target="_blank" href="https://suadpllana.github.io/quiz/">
             Link to the project
           </a>
@@ -85,7 +85,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.dictionary}  alt="Image 7" />
           <h4>Dictionary App</h4>
-          <p>React</p>
+          <p>React,Tailwind CSS</p>
           <a target="_blank" href="https://suadpllana.github.io/dictionary/">
             Link to the project
           </a>
@@ -94,7 +94,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.currency}  alt="Image 8" />
           <h4>Currency Converter</h4>
-          <p>React</p>
+          <p>React,Bootstrap</p>
           <a
             target="_blank"
             href="https://suadpllana.github.io/currency-converter/"
@@ -124,7 +124,7 @@ const Projects = () => {
         <div className="item">
           <img src={projectImages.university}  alt="Image 11" />
           <h4>University App</h4>
-          <p>React</p>
+          <p>React,Sass</p>
           <a target="_blank" href="https://suadpllana.github.io/university/">
             Link to the project
           </a>
