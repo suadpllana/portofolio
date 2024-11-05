@@ -65,10 +65,10 @@ const Projects = () => {
         </div>
   
         <div className="item">
-          <img src={projectImages.music}  alt="Image 5" />
-          <h4>Music Player</h4>
+          <img src={projectImages.aiImage}  alt="Image 5" />
+          <h4>AI Image Generator</h4>
           <p>React,Sass</p>
-          <a target="_blank" href="https://suadpllana.github.io/music/">
+          <a target="_blank" href="https://suadpllana.github.io/ai-image-generator/">
             Link to the project
           </a>
         </div>

@@ -18,11 +18,12 @@ import currency from "./assets/projects/currency.png"
 import translation from "./assets/projects/translate.png"
 import dictionary from "./assets/projects/dictionary.png"
 import euro2024 from "./assets/projects/euro2024.png"
-import music from "./assets/projects/music.png"
+
 import news from "./assets/projects/news.png"
 import quiz from "./assets/projects/quiz.png"
 import toDoList from "./assets/projects/to do list.png"
 import university from "./assets/projects/university.png"
+import aiImage from "./assets/projects/aiImage.png"
 
 import fCCJS from "./assets/certificates/fCCJS.png"
 import fCCWEB from "./assets/certificates/fCCWEB.png"
@@ -45,7 +46,7 @@ export const projectImages = {
     currency,
     dictionary,
     euro2024,
-    music,
+    aiImage,
     news,
     quiz,
     toDoList,
