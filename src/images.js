@@ -22,7 +22,7 @@ import euro2024 from "./assets/projects/euro2024.png"
 import news from "./assets/projects/news.png"
 import quiz from "./assets/projects/quiz.png"
 import toDoList from "./assets/projects/to do list.png"
-import university from "./assets/projects/university.png"
+import restaurant from "./assets/projects/restaurant.png"
 import aiImage from "./assets/projects/aiImage.png"
 
 import fCCJS from "./assets/certificates/fCCJS.png"
@@ -50,7 +50,7 @@ export const projectImages = {
     news,
     quiz,
     toDoList,
-    university,
+    restaurant,
     translation
 }
 export const images = {

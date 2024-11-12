@@ -19,9 +19,8 @@
 
 }
 .skills-images:hover{
-    width: 140px;
-    height: 140px;
-    transition: width, height 0.5s;
+   transform: scale(1.1);
+    transition: transform 0.5s;
 }
 #skills{
     margin-top: 10rem;
