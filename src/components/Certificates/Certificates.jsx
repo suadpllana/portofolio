@@ -41,7 +41,7 @@ const Certificates = () => {
       <h2 id="certificates">Certificates</h2>
       <div className="certificatesContainer">
         {certificates.map((certificate) => (
-          <div>
+          <div key={certificate.title}>
             <h4>{certificate.title}</h4>
             <img
               onClick={() => downloadPDF(certificate.title, certificate.img)}

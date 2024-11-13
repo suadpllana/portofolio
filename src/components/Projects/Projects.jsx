@@ -1,134 +1,156 @@
 import React from "react";
 import "./Projects.css";
-import { projectImages } from "../../images";
-import { useEffect } from "react";
+import { projectImages , thumbnailsImages} from "../../images";
+import { useEffect ,useState } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
+
 const Projects = () => {
-  useEffect(() => {
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: false,
-        nav: true,
-        dots: true,
-      });
-    });
-  }, []);
+  const projectData = [
+    {
+      title: "Naruto",
+      tools: "React,Sass",
+      link: "https://suadpllana.github.io/naruto/",
+      image: projectImages.naruto,
+      thumbnails: [projectImages.naruto,  thumbnailsImages.naruto1 , thumbnailsImages.naruto2 , thumbnailsImages.naruto3,thumbnailsImages.naruto4,thumbnailsImages.naruto5,thumbnailsImages.naruto6,thumbnailsImages.naruto7,thumbnailsImages.naruto8,thumbnailsImages.naruto9,thumbnailsImages.naruto10,thumbnailsImages.naruto11,]
+    
+    },
+    {
+      title: "Translation",
+      tools: "React,Tailwind CSS",
+      link: "https://suadpllana.github.io/translate/",
+      image: projectImages.translation,
+      thumbnails: [projectImages.translation , thumbnailsImages.translate1 , thumbnailsImages.translate2, thumbnailsImages.translate3]
+    },
+    {
+      title: "News",
+      tools: "React,Bootstrap",
+      link: "https://suadpllana.github.io/news/",
+      image: projectImages.news,
+      thumbnails: [projectImages.news, thumbnailsImages.news1, thumbnailsImages.news2]
+    },
+    {
+      title: "Cinema",
+      tools: "React,Sass",
+      link: "https://suadpllana.github.io/cinema/",
+      image: projectImages.cinema,
+      thumbnails: [projectImages.cinema, thumbnailsImages.cinema1, thumbnailsImages.cinema2, thumbnailsImages.cinema3, thumbnailsImages.cinema4, thumbnailsImages.cinema5, thumbnailsImages.cinema6,thumbnailsImages.cinema7]
+    },
+    {
+      title: "Restaurant",
+      tools: "HTML,CSS,JavaScript",
+      link: "https://suadpllana.github.io/restaurant/dashboard/dashboard.html",
+      image: projectImages.restaurant,
+      thumbnails: [projectImages.restaurant, thumbnailsImages.restaurant1,thumbnailsImages.restaurant2,
+        thumbnailsImages.restaurant4, thumbnailsImages.restaurant3,
+        thumbnailsImages.restaurant5,thumbnailsImages.restaurant6,thumbnailsImages.restaurant7,thumbnailsImages.restaurant8,thumbnailsImages.restaurant9,thumbnailsImages.restaurant10,thumbnailsImages.restaurant11,thumbnailsImages.restaurant12,thumbnailsImages.restaurant13,
+      ]
+    },
+    {
+      title: "AI Image Generator",
+      tools: "React,Sass",
+      link: "https://suadpllana.github.io/ai-image-generator/",
+      image: projectImages.aiImage,
+      thumbnails: [projectImages.aiImage, thumbnailsImages.ai1,thumbnailsImages.ai2]
+    },
+    {
+      title: "Quiz",
+      tools: "React,Tailwind CSS",
+      link: "https://suadpllana.github.io/quiz/",
+      image: projectImages.quiz,
+      thumbnails: [projectImages.quiz, thumbnailsImages.quiz1, thumbnailsImages.quiz2, thumbnailsImages.quiz3]
+    },
+    {
+      title: "Dictionary",
+      tools: "React,Tailwind CSS",
+      link: "https://suadpllana.github.io/dictionary/",
+      image: projectImages.dictionary,
+      thumbnails: [projectImages.dictionary]
+    },
+
+    {
+      title: "Currency Converter",
+      tools: "React,Bootstrap",
+      link: "https://suadpllana.github.io/currency-converter/",
+      image: projectImages.currency,
+      thumbnails: [projectImages.currency,thumbnailsImages.currency1,thumbnailsImages.currency2]
+    },
+    {
+      title: "Euro 2024",
+      tools: "HTML,CSS,JavaScript",
+      link: "https://suadpllana.github.io/euro2024/",
+      image: projectImages.euro2024,
+      thumbnails: [projectImages.euro2024, thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13]
+    },
+    {
+      title: "To Do List",
+      tools: "HTML,CSS,JavaScript",
+      link: "https://suadpllana.github.io/to-do-list/",
+      image: thumbnailsImages.todo1,
+      thumbnails: [thumbnailsImages.todo1, thumbnailsImages.todo2, thumbnailsImages.todo3 ,projectImages.toDoList]
+    },
+  ]
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [thumbnails, setThumbnails] = useState([]);
+
+  const openModal = (image, thumbnails) => {
+    setSelectedImage(image);
+    setThumbnails(thumbnails);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+    setThumbnails([]);
+  };
+
+  
 
   return (
     <>
       <Element name="projects" />
       <h2 id="skills">Projects</h2>
-      <div className="owl-carousel owl-theme">
-        <div className="item">
-          <img src={projectImages.naruto} alt="Image 1" />
-          <h4>Naruto</h4>
-          <p>React,Sass</p>
-          <a target="_blank" href="https://suadpllana.github.io/naruto/">
+      <div className="projectsContainer" >
+      {projectData.map((project) => (
+        <div  className="project" key={project.title}>
+          <img
+            src={project.image}
+            alt={project.title}
+            onClick={() => openModal(project.image, project.thumbnails)}
+          />
+          <h4>{project.title}</h4>
+          <p>{project.tools}</p>
+          <a target="_blank" rel="noopener noreferrer" href={project.link}>
             Link to the project
           </a>
         </div>
+      ))}
 
-        <div className="item">
-          <img src={projectImages.translation} alt="Image 2" />
-          <h4>Translation</h4>
-          <p>React,Tailwind CSS</p>
-          <a target="_blank" href="https://suadpllana.github.io/translate/">
-            Link to the project
-          </a>
+      {isModalOpen && (
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <span className="close" onClick={closeModal}>&times;</span>
+            <img className="main-image" src={selectedImage} alt="Selected" />
+            <div className="thumbnails">
+              {thumbnails.map((thumb, index) => (
+                <img
+                  key={index}
+                  src={thumb}
+                  alt={`Thumbnail ${index + 1}`}
+                  onClick={() => setSelectedImage(thumb)}
+                  className={thumb === selectedImage ? 'active' : ''}
+                />
+              ))}
+              
+            </div>
+         
+          </div>
+       
         </div>
+      )}
+    </div>
 
-        <div className="item">
-          <img src={projectImages.news} alt="Image 3" />
-          <h4>News</h4>
-          <p>React,Bootstrap</p>
-          <a target="_blank" href="https://suadpllana.github.io/news/">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.cinema} alt="Image 4" />
-          <h4>Cinema</h4>
-          <p>React,Sass</p>
-          <a target="_blank" href="https://suadpllana.github.io/cinema/">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.restaurant} alt="Image 11" />
-          <h4>Restaurant App</h4>
-          <p>HTML,CSS,JavaScript</p>
-          <a target="_blank" href="https://suadpllana.github.io/restaurant/dashboard/dashboard.html">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.aiImage} alt="Image 5" />
-          <h4>AI Image Generator</h4>
-          <p>React,Sass</p>
-          <a
-            target="_blank"
-            href="https://suadpllana.github.io/ai-image-generator/"
-          >
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.quiz} alt="Image 6" />
-          <h4>Quiz</h4>
-          <p>React,Tailwind CSS</p>
-          <a target="_blank" href="https://suadpllana.github.io/quiz/">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.dictionary} alt="Image 7" />
-          <h4>Dictionary App</h4>
-          <p>React,Tailwind CSS</p>
-          <a target="_blank" href="https://suadpllana.github.io/dictionary/">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.currency} alt="Image 8" />
-          <h4>Currency Converter</h4>
-          <p>React,Bootstrap</p>
-          <a
-            target="_blank"
-            href="https://suadpllana.github.io/currency-converter/"
-          >
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.euro2024} alt="Image 9" />
-          <h4>Euro 2024 App</h4>
-          <p>HTML,CSS,JavaScript</p>
-          <a target="_blank" href="https://suadpllana.github.io/euro2024/">
-            Link to the project
-          </a>
-        </div>
-
-        <div className="item">
-          <img src={projectImages.toDoList} alt="Image 10" />
-          <h4>To Do List App</h4>
-          <p>HTML,CSS,JavaScript</p>
-          <a target="_blank" href="https://suadpllana.github.io/to-do-list/">
-            Link to the project
-          </a>
-        </div>
-
-      
-      </div>
       <h3 className="all-projects">
         Please check all of my projects{" "}
         <a target="_blank" href="https://suadpllana.github.io/all-projects">

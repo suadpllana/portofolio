@@ -1,96 +1,137 @@
-.owl-carousel .item{
-    width: 40%;
-    margin-left: 30%
+
+.projectsContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.project{
+    width: 100%;
+    height: auto;
+    background-color: rgb(184, 173, 173);
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.project img{
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.project img:hover{
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+.project a , .project p , .project h4 {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.project a{
+   
+    text-decoration: none;
+    font-size: 19px;
+    color: purple;
+}.project a:hover{
+    opacity: 0.7;
 }
 
-.owl.item   {
-    height: 20rem;
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+ 
+  .modal-content {
     position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: auto;
+    height: auto;
   
-}
-.item h4 ,  .item p{
-    text-align: left;
-}
-.owl-prev span{
-    color: black;
-    font-size: 150px;
+  }
+  
+ 
+  .close {
     position: absolute;
-    left: 15rem;
-    top: 4.5rem;
-}
-.owl-next span {
+    top: -10px;
+    right: 5px;
     color: black;
-    font-size: 150px;
-    position: absolute;
-    right: 15rem;
-    top: 4.5rem;
-}
-.item {
-    height: 22rem;
-    background-color: rgb(237, 224, 224);
-    border-radius: 10px;
-    text-align: left;
-}
-.item p {
-    margin-top: 5px;
-    margin-bottom: 2px;
-}
-.item  img {
-    height: 16rem;
-}
-.item p, .item a, .item h4{
-    margin: 0;
-    margin-bottom: 7px;
-    margin-left: 1.5rem;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+ 
+  .main-image {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+
+  .thumbnails {
+    display: flex;
+    gap: 10px;
    
-}
-.item a {
-    text-decoration: none;
-    color: purple;
-    font-size: 1.1rem;
+  }
   
-}
-.item h4{
-    font-size: 18px;
-}
-.item{
-    background-color: rgb(219, 214, 214);
-}
+  .thumbnails img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .thumbnails img.active {
+    border: 2px solid #333;
+    transform: scale(1.1);
+  }
+  
+
+
 .all-projects{
     margin-top: 2rem;
 }
+
+
 @media (max-width: 767px){
 
     .home-responsive{
         display: none;
     }
-
-  
-    .owl-carousel .item {
+    .projectsContainer{
+        grid-template-columns: 1fr;
+    }
+    .modal-content{
         width: 100%;
-        margin-left: 0;
+       
     }
-    .owl-next span , .owl-prev span {
-    display: none;
-   }
-  
-
+    .thumbnails{
+        flex-wrap: wrap;
+    }
 }
-@media (min-width: 768px) and (max-width: 1222px){
-    .owl-carousel .item {
-        width: 60%;
-        margin-left: 20%;
+@media (min-width: 768px) and (max-width: 1217px){
+    .projectsContainer{
+        grid-template-columns: 1fr 1fr;
     }
-    .owl-next span {
-     right: 5rem;
+    .modal-content{
+        width: 100%;
     }
-    .owl-prev span {
-        left:  5rem;
+    .thumbnails{
+        flex-wrap: wrap;
     }
-   
-
- 
- 
-   
 }

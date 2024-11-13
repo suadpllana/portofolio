@@ -1,7 +1,7 @@
 
 .navbar {
-    background-color: white; /* Set background to white */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   }
 
 
@@ -11,4 +11,19 @@
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
+}
+.cv-button{
+  border: none;
+  border-radius: 100px;
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(36, 36, 202);
+}
+.cv-button:hover{
+  opacity: 0.7;
+}
+.cv-button:active{
+  opacity: 0.5;
 }
