@@ -15,8 +15,9 @@
 .cv-button{
   border: none;
   border-radius: 100px;
-  height: 35px;
-  width: 120px;
+  min-height: 35px;
+  height: auto;
+  width: auto;
   cursor: pointer;
   color: white;
   background-color: rgb(36, 36, 202);

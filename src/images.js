@@ -59,6 +59,8 @@ import cinema6 from "./assets/thumbnails/cinema6.png";
 import cinema7 from "./assets/thumbnails/cinema7.png";
 import currency1 from "./assets/thumbnails/currency1.png";
 import currency2 from "./assets/thumbnails/currency2.png";
+import currency3 from "./assets/thumbnails/currency3.png";
+import currency4 from "./assets/thumbnails/currency4.png";
 import dictionary1 from "./assets/thumbnails/dictionary1.png";
 import euro1 from "./assets/thumbnails/euro1.png";
 import euro2 from "./assets/thumbnails/euro2.png";
@@ -76,6 +78,9 @@ import euro13 from "./assets/thumbnails/euro13.png";
 import quiz1 from "./assets/thumbnails/quiz1.png";
 import quiz2 from "./assets/thumbnails/quiz2.png";
 import quiz3 from "./assets/thumbnails/quiz3.png";
+import quiz4 from "./assets/thumbnails/quiz4.png";
+import quiz5 from "./assets/thumbnails/quiz5.png";
+import quiz6 from "./assets/thumbnails/quiz6.png";
 import restaurant1 from "./assets/thumbnails/restaurant1.png";
 import restaurant2 from "./assets/thumbnails/restaurant2.png";
 import restaurant3 from "./assets/thumbnails/restaurant3.png";
@@ -92,9 +97,10 @@ import restaurant13 from "./assets/thumbnails/restaurant13.png";
 import todo1 from "./assets/thumbnails/todo1.png";
 import todo2 from "./assets/thumbnails/todo2.png";
 import todo3 from "./assets/thumbnails/todo3.png";
-
+import news3 from "./assets/thumbnails/news3.png"
 
 export const thumbnailsImages ={
+    news3,
     ai1,
     ai2,
     cinema1,
@@ -106,6 +112,8 @@ export const thumbnailsImages ={
     cinema7,
     currency1,
     currency2,
+    currency3,
+    currency4,
     dictionary1,
     euro1,
     euro2,
@@ -136,6 +144,9 @@ export const thumbnailsImages ={
     quiz1,
     quiz2,
     quiz3,
+    quiz4,
+    quiz5,
+    quiz6,
     restaurant1,
     restaurant2,
     restaurant3,

@@ -15,25 +15,11 @@ const Projects = () => {
     
     },
     {
-      title: "Translation",
-      tools: "React,Tailwind CSS",
-      link: "https://suadpllana.github.io/translate/",
-      image: projectImages.translation,
-      thumbnails: [projectImages.translation , thumbnailsImages.translate1 , thumbnailsImages.translate2, thumbnailsImages.translate3]
-    },
-    {
-      title: "News",
-      tools: "React,Bootstrap",
-      link: "https://suadpllana.github.io/news/",
-      image: projectImages.news,
-      thumbnails: [projectImages.news, thumbnailsImages.news1, thumbnailsImages.news2]
-    },
-    {
-      title: "Cinema",
-      tools: "React,Sass",
-      link: "https://suadpllana.github.io/cinema/",
-      image: projectImages.cinema,
-      thumbnails: [projectImages.cinema, thumbnailsImages.cinema1, thumbnailsImages.cinema2, thumbnailsImages.cinema3, thumbnailsImages.cinema4, thumbnailsImages.cinema5, thumbnailsImages.cinema6,thumbnailsImages.cinema7]
+      title: "Crypto Prices",
+      tools: "React",
+      link: "https://suadpllana.github.io/crypto-prices/",
+      image: thumbnailsImages.currency1,
+      thumbnails: [thumbnailsImages.currency1,thumbnailsImages.currency2,thumbnailsImages.currency3,thumbnailsImages.currency4]
     },
     {
       title: "Restaurant",
@@ -46,33 +32,11 @@ const Projects = () => {
       ]
     },
     {
-      title: "AI Image Generator",
+      title: "Cinema",
       tools: "React,Sass",
-      link: "https://suadpllana.github.io/ai-image-generator/",
-      image: projectImages.aiImage,
-      thumbnails: [projectImages.aiImage, thumbnailsImages.ai1,thumbnailsImages.ai2]
-    },
-    {
-      title: "Quiz",
-      tools: "React,Tailwind CSS",
-      link: "https://suadpllana.github.io/quiz/",
-      image: projectImages.quiz,
-      thumbnails: [projectImages.quiz, thumbnailsImages.quiz1, thumbnailsImages.quiz2, thumbnailsImages.quiz3]
-    },
-    {
-      title: "Dictionary",
-      tools: "React,Tailwind CSS",
-      link: "https://suadpllana.github.io/dictionary/",
-      image: projectImages.dictionary,
-      thumbnails: [projectImages.dictionary]
-    },
-
-    {
-      title: "Currency Converter",
-      tools: "React,Bootstrap",
-      link: "https://suadpllana.github.io/currency-converter/",
-      image: projectImages.currency,
-      thumbnails: [projectImages.currency,thumbnailsImages.currency1,thumbnailsImages.currency2]
+      link: "https://suadpllana.github.io/cinema/",
+      image: projectImages.cinema,
+      thumbnails: [projectImages.cinema, thumbnailsImages.cinema1, thumbnailsImages.cinema2, thumbnailsImages.cinema3, thumbnailsImages.cinema4, thumbnailsImages.cinema5, thumbnailsImages.cinema6,thumbnailsImages.cinema7]
     },
     {
       title: "Euro 2024",
@@ -82,12 +46,54 @@ const Projects = () => {
       thumbnails: [projectImages.euro2024, thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13]
     },
     {
+      title: "Translation",
+      tools: "React,Tailwind CSS",
+      link: "https://suadpllana.github.io/translate/",
+      image: projectImages.translation,
+      thumbnails: [projectImages.translation , thumbnailsImages.translate1 , thumbnailsImages.translate2, thumbnailsImages.translate3]
+    },
+    {
+      title: "AI Image Generator",
+      tools: "React,Sass",
+      link: "https://suadpllana.github.io/ai-image-generator/",
+      image: projectImages.aiImage,
+      thumbnails: [projectImages.aiImage, thumbnailsImages.ai1,thumbnailsImages.ai2]
+    },
+    {
+      title: "Dictionary",
+      tools: "React,Tailwind CSS",
+      link: "https://suadpllana.github.io/dictionary/",
+      image: projectImages.dictionary,
+      thumbnails: [projectImages.dictionary]
+    },
+    {
+      title: "Charity",
+      tools: "React,Bootstrap",
+      link: "https://suadpllana.github.io/charity/",
+      image: projectImages.news,
+      thumbnails: [projectImages.news, thumbnailsImages.news1, thumbnailsImages.news2, thumbnailsImages.news3]
+    },
+   
+
+    {
       title: "To Do List",
       tools: "HTML,CSS,JavaScript",
       link: "https://suadpllana.github.io/to-do-list/",
       image: thumbnailsImages.todo1,
       thumbnails: [thumbnailsImages.todo1, thumbnailsImages.todo2, thumbnailsImages.todo3 ,projectImages.toDoList]
     },
+ 
+    {
+      title: "Dogs",
+      tools: "React",
+      link: "https://suadpllana.github.io/dogs/",
+      image: thumbnailsImages.quiz1,
+      thumbnails: [ thumbnailsImages.quiz1, thumbnailsImages.quiz2, thumbnailsImages.quiz3,thumbnailsImages.quiz4,thumbnailsImages.quiz5,thumbnailsImages.quiz6]
+    },
+  
+
+ 
+  
   ]
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
