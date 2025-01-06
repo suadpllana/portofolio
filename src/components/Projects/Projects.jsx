@@ -23,8 +23,8 @@ const Projects = () => {
     },
     {
       title: "Restaurant",
-      tools: "HTML,CSS,JavaScript",
-      link: "https://suadpllana.github.io/restaurant/dashboard/dashboard.html",
+      tools: "React",
+      link: "https://suadpllana.github.io/restaurant/",
       image: projectImages.restaurant,
       thumbnails: [projectImages.restaurant, thumbnailsImages.restaurant1,thumbnailsImages.restaurant2,
         thumbnailsImages.restaurant4, thumbnailsImages.restaurant3,
@@ -40,7 +40,7 @@ const Projects = () => {
     },
     {
       title: "Euro 2024",
-      tools: "HTML,CSS,JavaScript",
+      tools: "React",
       link: "https://suadpllana.github.io/euro2024/",
       image: projectImages.euro2024,
       thumbnails: [projectImages.euro2024, thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13]
