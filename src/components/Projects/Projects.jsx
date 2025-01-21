@@ -7,19 +7,25 @@ import { Link as ScrollLink, Element } from "react-scroll";
 const Projects = () => {
   const projectData = [
     {
-      title: "Naruto",
-      tools: "React,Sass",
-      link: "https://suadpllana.github.io/naruto/",
-      image: projectImages.naruto,
-      thumbnails: [projectImages.naruto,  thumbnailsImages.naruto1 , thumbnailsImages.naruto2 , thumbnailsImages.naruto3,thumbnailsImages.naruto4,thumbnailsImages.naruto5,thumbnailsImages.naruto6,thumbnailsImages.naruto7,thumbnailsImages.naruto8,thumbnailsImages.naruto9,thumbnailsImages.naruto10,thumbnailsImages.naruto11,]
-    
+      title: "Movies",
+      tools: "React",
+      link: "https://suadpllana.github.io/movies/",
+      image: projectImages.movies,
+      thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10,thumbnailsImages.movies11,thumbnailsImages.movies12,thumbnailsImages.movies13]
     },
     {
       title: "Crypto Prices",
       tools: "React",
       link: "https://suadpllana.github.io/crypto-prices/",
-      image: thumbnailsImages.currency1,
-      thumbnails: [thumbnailsImages.currency1,thumbnailsImages.currency2,thumbnailsImages.currency3,thumbnailsImages.currency4]
+      image: projectImages.crypto,
+      thumbnails: [projectImages.crypto,thumbnailsImages.crypto1,thumbnailsImages.crypto2,thumbnailsImages.crypto3,thumbnailsImages.crypto4,thumbnailsImages.crypto5,thumbnailsImages.crypto6,thumbnailsImages.crypto7]
+    },
+    {
+      title: "Naruto",
+      tools: "React,Sass",
+      link: "https://suadpllana.github.io/naruto/",
+      image: projectImages.naruto,
+      thumbnails: [projectImages.naruto,  thumbnailsImages.naruto1 , thumbnailsImages.naruto2 , thumbnailsImages.naruto3,thumbnailsImages.naruto4,thumbnailsImages.naruto5,thumbnailsImages.naruto6,thumbnailsImages.naruto7,thumbnailsImages.naruto8,thumbnailsImages.naruto9,thumbnailsImages.naruto10,thumbnailsImages.naruto11,thumbnailsImages.naruto12,thumbnailsImages.naruto13,thumbnailsImages.naruto14,thumbnailsImages.naruto15]
     },
     {
       title: "Restaurant",
@@ -28,68 +34,73 @@ const Projects = () => {
       image: projectImages.restaurant,
       thumbnails: [projectImages.restaurant, thumbnailsImages.restaurant1,thumbnailsImages.restaurant2,
         thumbnailsImages.restaurant4, thumbnailsImages.restaurant3,
-        thumbnailsImages.restaurant5,thumbnailsImages.restaurant6,thumbnailsImages.restaurant7,thumbnailsImages.restaurant8,thumbnailsImages.restaurant9,thumbnailsImages.restaurant10,thumbnailsImages.restaurant11,thumbnailsImages.restaurant12,thumbnailsImages.restaurant13,
+        thumbnailsImages.restaurant5,thumbnailsImages.restaurant6,thumbnailsImages.restaurant7,thumbnailsImages.restaurant8,thumbnailsImages.restaurant9,thumbnailsImages.restaurant10,thumbnailsImages.restaurant11,thumbnailsImages.restaurant12,thumbnailsImages.restaurant13, thumbnailsImages.restaurant14
       ]
     },
+  
+
     {
-      title: "Cinema",
-      tools: "React,Sass",
-      link: "https://suadpllana.github.io/cinema/",
-      image: projectImages.cinema,
-      thumbnails: [projectImages.cinema, thumbnailsImages.cinema1, thumbnailsImages.cinema2, thumbnailsImages.cinema3, thumbnailsImages.cinema4, thumbnailsImages.cinema5, thumbnailsImages.cinema6,thumbnailsImages.cinema7]
+      title: "Music",
+      tools: "React",
+      link: "https://suadpllana.github.io/music/",
+      image: projectImages.music,
+      thumbnails: [projectImages.music, thumbnailsImages.music1, thumbnailsImages.music2,thumbnailsImages.music3,thumbnailsImages.music4]
+    },
+    {
+      title: "Games",
+      tools: "React",
+      link: "https://suadpllana.github.io/games/",
+      image: projectImages.games,
+      thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
     },
     {
       title: "Euro 2024",
       tools: "React",
       link: "https://suadpllana.github.io/euro2024/",
-      image: projectImages.euro2024,
-      thumbnails: [projectImages.euro2024, thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13]
-    },
+      image: projectImages.euro,
+      thumbnails: [projectImages.euro// thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13//  
+  ]},
     {
-      title: "Translation",
-      tools: "React,Tailwind CSS",
-      link: "https://suadpllana.github.io/translate/",
-      image: projectImages.translation,
-      thumbnails: [projectImages.translation , thumbnailsImages.translate1 , thumbnailsImages.translate2, thumbnailsImages.translate3]
+      title: "News",
+      tools: "React,Bootstrap",
+      link: "https://suadpllana.github.io/news/",
+      image: projectImages.news,
+      thumbnails: [projectImages.news]
     },
     {
       title: "AI Image Generator",
       tools: "React,Sass",
       link: "https://suadpllana.github.io/ai-image-generator/",
-      image: projectImages.aiImage,
-      thumbnails: [projectImages.aiImage, thumbnailsImages.ai1,thumbnailsImages.ai2]
+      image: projectImages.ai,
+      thumbnails: [projectImages.ai, thumbnailsImages.ai1,thumbnailsImages.ai2]
     },
     {
-      title: "Dictionary",
+      title: "Translation",
       tools: "React,Tailwind CSS",
-      link: "https://suadpllana.github.io/dictionary/",
-      image: projectImages.dictionary,
-      thumbnails: [projectImages.dictionary]
+      link: "https://suadpllana.github.io/translate/",
+      image: projectImages.translate,
+      thumbnails: [projectImages.translate , thumbnailsImages.translate1 , thumbnailsImages.translate2, thumbnailsImages.translate3]
     },
+
+  
     {
-      title: "Charity",
-      tools: "React,Bootstrap",
-      link: "https://suadpllana.github.io/charity/",
-      image: projectImages.news,
-      thumbnails: [projectImages.news, thumbnailsImages.news1, thumbnailsImages.news2, thumbnailsImages.news3]
+      title: "Pokemon",
+      tools: "React",
+      link: "https://suadpllana.github.io/pokemon/",
+      image: projectImages.pokemon,
+      thumbnails: [ projectImages.pokemon, thumbnailsImages.pokemon1, thumbnailsImages.pokemon2, thumbnailsImages.pokemon3,]
     },
    
 
     {
       title: "To Do List",
-      tools: "HTML,CSS,JavaScript",
+      tools: "React",
       link: "https://suadpllana.github.io/to-do-list/",
-      image: thumbnailsImages.todo1,
-      thumbnails: [thumbnailsImages.todo1, thumbnailsImages.todo2, thumbnailsImages.todo3 ,projectImages.toDoList]
+      image: projectImages.todo,
+      thumbnails: [projectImages.todo, thumbnailsImages.todo1, thumbnailsImages.todo2 ,thumbnailsImages.todo3,thumbnailsImages.todo4]
     },
  
-    {
-      title: "Dogs",
-      tools: "React",
-      link: "https://suadpllana.github.io/dogs/",
-      image: thumbnailsImages.quiz1,
-      thumbnails: [ thumbnailsImages.quiz1, thumbnailsImages.quiz2, thumbnailsImages.quiz3,thumbnailsImages.quiz4,thumbnailsImages.quiz5,thumbnailsImages.quiz6]
-    },
+ 
   
 
  
