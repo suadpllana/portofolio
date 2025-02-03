@@ -151,6 +151,31 @@ import todo1 from "./assets/thumbnails/todo1.png"
 import todo2 from "./assets/thumbnails/todo2.png"
 import todo3 from "./assets/thumbnails/todo3.png"
 import todo4 from "./assets/thumbnails/todo4.png"
+
+
+import football1 from "./assets/projects/football1.png"
+import football2 from "./assets/thumbnails/football2.png"
+import football3 from "./assets/thumbnails/football3.png"
+import football4 from "./assets/thumbnails/football4.png"
+import football5 from "./assets/thumbnails/football5.png"
+import football6 from "./assets/thumbnails/football6.png"
+import football7 from "./assets/thumbnails/football7.png"
+import football8 from "./assets/thumbnails/football8.png"
+import football9 from "./assets/thumbnails/football9.png"
+import football10 from "./assets/thumbnails/football10.png"
+import football11 from "./assets/thumbnails/football11.png"
+import football12 from "./assets/thumbnails/football12.png"
+import football13 from "./assets/thumbnails/football13.png"
+import football14 from "./assets/thumbnails/football14.png"
+import football15 from "./assets/thumbnails/football15.png"
+import football16 from "./assets/thumbnails/football16.png"
+import football17 from "./assets/thumbnails/football17.png"
+import football18 from "./assets/thumbnails/football18.png"
+import football19 from "./assets/thumbnails/football19.png"
+import football20 from "./assets/thumbnails/football20.png"
+import football21 from "./assets/thumbnails/football21.png"
+
+
 export const thumbnailsImages ={
    movies1,
    movies2,
@@ -223,7 +248,28 @@ export const thumbnailsImages ={
    todo1,
    todo2,
    todo3,
-   todo4
+   todo4,
+   football2,
+   football3,
+   football4,
+   football5,
+   football6,
+   football7,
+   football8,
+   football9,
+   football10,
+   football11,
+   football12,
+   football13,
+   football14,
+   football15,
+   football16,
+   football17,
+   football18,
+   football19,
+   football20,
+   football21,
+   
 }
 export const projectImages = {
    movies,
@@ -237,5 +283,6 @@ export const projectImages = {
    ai,
    translate,
    pokemon,
-   todo
+   todo,
+   football1
 }

@@ -21,6 +21,14 @@ const Projects = () => {
       thumbnails: [projectImages.crypto,thumbnailsImages.crypto1,thumbnailsImages.crypto2,thumbnailsImages.crypto3,thumbnailsImages.crypto4,thumbnailsImages.crypto5,thumbnailsImages.crypto6,thumbnailsImages.crypto7]
     },
     {
+      title: "Football",
+      tools: "React",
+      link: "https://football-app1.netlify.app",
+      image: projectImages.football1,
+      thumbnails: [projectImages.football1,thumbnailsImages.football2,thumbnailsImages.football3,thumbnailsImages.football4,thumbnailsImages.football5,thumbnailsImages.football6,thumbnailsImages.football7,thumbnailsImages.football8,thumbnailsImages.football9,thumbnailsImages.football10,thumbnailsImages.football11,thumbnailsImages.football12,thumbnailsImages.football13,thumbnailsImages.football14,thumbnailsImages.football15,thumbnailsImages.football16,thumbnailsImages.football17,thumbnailsImages.football18,thumbnailsImages.football19,thumbnailsImages.football20,thumbnailsImages.football21]
+    }
+ ,
+    {
       title: "Naruto",
       tools: "React,Sass",
       link: "https://suadpllana.github.io/naruto/",
@@ -53,20 +61,7 @@ const Projects = () => {
       image: projectImages.games,
       thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
     },
-    {
-      title: "Euro 2024",
-      tools: "React",
-      link: "https://suadpllana.github.io/euro2024/",
-      image: projectImages.euro,
-      thumbnails: [projectImages.euro// thumbnailsImages.euro1,thumbnailsImages.euro2,thumbnailsImages.euro3, thumbnailsImages.euro8 , thumbnailsImages.euro4,   thumbnailsImages.euro5,thumbnailsImages.euro6, thumbnailsImages.euro9 ,thumbnailsImages.euro7,thumbnailsImages.euro10,thumbnailsImages.euro11,thumbnailsImages.euro12,thumbnailsImages.euro13//  
-  ]},
-    {
-      title: "News",
-      tools: "React,Bootstrap",
-      link: "https://suadpllana.github.io/news/",
-      image: projectImages.news,
-      thumbnails: [projectImages.news]
-    },
+   
     {
       title: "AI Image Generator",
       tools: "React,Sass",
@@ -99,7 +94,7 @@ const Projects = () => {
       image: projectImages.todo,
       thumbnails: [projectImages.todo, thumbnailsImages.todo1, thumbnailsImages.todo2 ,thumbnailsImages.todo3,thumbnailsImages.todo4]
     },
- 
+   
  
   
 
