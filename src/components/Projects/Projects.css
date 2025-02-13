@@ -60,7 +60,6 @@
     text-align: center;
     width: auto;
     height: auto;
-  
   }
   
  
@@ -85,9 +84,23 @@
   .thumbnails {
     display: flex;
     gap: 10px;
+    width: 60vw;
+    flex-wrap: wrap;
    
   }
+  .icon{
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .prev{
+    left: 0;
+  }
+  .next{
+    right: 0;
   
+  }
   .thumbnails img {
     width: 60px;
     height: 60px;
@@ -97,8 +110,8 @@
   }
   
   .thumbnails img.active {
-    border: 2px solid #333;
-    transform: scale(1.1);
+    border: 3px solid black;
+    transform: scale(1.2);
   }
   
 
@@ -109,7 +122,12 @@
 
 
 @media (max-width: 767px){
-
+    .thumbnails {
+      
+        width: 100vw;
+        
+       
+      }
     .home-responsive{
         display: none;
     }
@@ -131,7 +149,10 @@
     .modal-content{
         width: 100%;
     }
-    .thumbnails{
-        flex-wrap: wrap;
-    }
+    .thumbnails {
+      
+        width: 100vw;
+        
+       
+      }
 }
