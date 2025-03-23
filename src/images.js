@@ -10,7 +10,7 @@ import Sass from "./assets/skills/sass.png"
 import GitHub from "./assets/skills/github.png"
 import Git from "./assets/skills/git.png"
 import jQuery from "./assets/skills/jquery.png"
-
+import firebase from "./assets/skills/firebase.png"
 
 
 
@@ -46,7 +46,8 @@ export const images = {
     Sass,
     GitHub,
     Git,
-    jQuery
+    jQuery,
+    firebase
 }
 
 
