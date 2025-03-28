@@ -6,7 +6,7 @@ export  const projectData = [
       tools: "React",
       link: "https://suadpllana.github.io/movies/",
       image: projectImages.movies,
-      thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10,thumbnailsImages.movies11,thumbnailsImages.movies12,thumbnailsImages.movies13]
+      thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10]
     },
     {
       title: "Football",
@@ -27,7 +27,7 @@ export  const projectData = [
       tools: "React",
       link: "https://suadpllana.github.io/music/",
       image: projectImages.music,
-      thumbnails: [projectImages.music, thumbnailsImages.music1, thumbnailsImages.music2,thumbnailsImages.music3,thumbnailsImages.music4]
+      thumbnails: [projectImages.music, thumbnailsImages.music1, thumbnailsImages.music2,thumbnailsImages.music3,thumbnailsImages.music4, thumbnailsImages.music5]
     },
  
     {

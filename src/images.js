@@ -67,9 +67,6 @@ import movies7 from "./assets/thumbnails/movies7.png"
 import movies8 from "./assets/thumbnails/movies8.png"
 import movies9 from "./assets/thumbnails/movies9.png"
 import movies10 from "./assets/thumbnails/movies10.png"
-import movies11 from "./assets/thumbnails/movies11.png"
-import movies12 from "./assets/thumbnails/movies12.png"
-import movies13 from "./assets/thumbnails/movies13.png"
 
 import crypto from "./assets/projects/crypto.png"
 import crypto1 from "./assets/thumbnails/crypto1.png"
@@ -88,7 +85,7 @@ import music1 from "./assets/thumbnails/music1.png"
 import music2 from "./assets/thumbnails/music2.png"
 import music3 from "./assets/thumbnails/music3.png"
 import music4 from "./assets/thumbnails/music4.png"
-
+import music5 from "./assets/thumbnails/music5.png"
 
 import games from "./assets/projects/games.png"
 import games1 from "./assets/thumbnails/games1.png"
@@ -158,9 +155,7 @@ export const thumbnailsImages ={
    movies8,
    movies9,
    movies10,
-   movies11,
-   movies12,
-   movies13,
+ 
    crypto1,
    crypto2,
    crypto3,
@@ -173,6 +168,7 @@ export const thumbnailsImages ={
    music2,
    music3,
    music4,
+    music5,
    games1,
    games2,
    games3,
