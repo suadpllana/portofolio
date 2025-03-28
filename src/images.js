@@ -9,7 +9,7 @@ import TailwindCss from "./assets/skills/tailwind.png"
 import Sass from "./assets/skills/sass.png"
 import GitHub from "./assets/skills/github.png"
 import Git from "./assets/skills/git.png"
-import jQuery from "./assets/skills/jquery.png"
+
 import firebase from "./assets/skills/firebase.png"
 
 
@@ -46,7 +46,7 @@ export const images = {
     Sass,
     GitHub,
     Git,
-    jQuery,
+
     firebase
 }
 
@@ -80,38 +80,8 @@ import crypto5 from "./assets/thumbnails/crypto5.png"
 import crypto6 from "./assets/thumbnails/crypto6.png"
 import crypto7 from "./assets/thumbnails/crypto7.png"
 
-import naruto from "./assets/projects/naruto.png"
-import naruto1 from "./assets/thumbnails/naruto1.png"
-import naruto2 from "./assets/thumbnails/naruto2.png"
-import naruto3 from "./assets/thumbnails/naruto3.png"
-import naruto4 from "./assets/thumbnails/naruto4.png"
-import naruto5 from "./assets/thumbnails/naruto5.png"
-import naruto6 from "./assets/thumbnails/naruto6.png"
-import naruto7 from "./assets/thumbnails/naruto7.png"
-import naruto8 from "./assets/thumbnails/naruto8.png"
-import naruto9 from "./assets/thumbnails/naruto9.png"
-import naruto10 from "./assets/thumbnails/naruto10.png"
-import naruto11 from "./assets/thumbnails/naruto11.png"
-import naruto12 from "./assets/thumbnails/naruto12.png"
-import naruto13 from "./assets/thumbnails/naruto13.png"
-import naruto14 from "./assets/thumbnails/naruto14.png"
-import naruto15 from "./assets/thumbnails/naruto15.png"
 
-import restaurant from "./assets/projects/restaurant.png"
-import restaurant1 from "./assets/thumbnails/restaurant1.png"
-import restaurant2 from "./assets/thumbnails/restaurant2.png"
-import restaurant3 from "./assets/thumbnails/restaurant3.png"
-import restaurant4 from "./assets/thumbnails/restaurant4.png"
-import restaurant5 from "./assets/thumbnails/restaurant5.png"
-import restaurant6 from "./assets/thumbnails/restaurant6.png"
-import restaurant7 from "./assets/thumbnails/restaurant7.png"
-import restaurant8 from "./assets/thumbnails/restaurant8.png"
-import restaurant9 from "./assets/thumbnails/restaurant9.png"
-import restaurant10 from "./assets/thumbnails/restaurant10.png"
-import restaurant11 from "./assets/thumbnails/restaurant11.png"
-import restaurant12 from "./assets/thumbnails/restaurant12.png"
-import restaurant13 from "./assets/thumbnails/restaurant13.png"
-import restaurant14 from "./assets/thumbnails/restaurant14.png"
+
 
 import music from "./assets/projects/music.png"
 import music1 from "./assets/thumbnails/music1.png"
@@ -129,23 +99,12 @@ import games5 from "./assets/thumbnails/games5.png"
 import games6 from "./assets/thumbnails/games6.png"
 import games7 from "./assets/thumbnails/games7.png"
 
-import euro from "./assets/projects/euro.png"
-
-import news from "./assets/projects/news.png"
 
 import ai from "./assets/projects/ai.png"
 import ai1 from "./assets/thumbnails/ai1.png"
 import ai2 from "./assets/thumbnails/ai2.png"
 
-import translate from "./assets/projects/translate.png"
-import translate1 from "./assets/thumbnails/translate1.png"
-import translate2 from "./assets/thumbnails/translate2.png"
-import translate3 from "./assets/thumbnails/translate3.png"
-
-import pokemon from "./assets/projects/pokemon.png"
-import pokemon1 from "./assets/thumbnails/pokemon1.png"
-import pokemon2 from "./assets/thumbnails/pokemon2.png"
-import pokemon3 from "./assets/thumbnails/pokemon3.png"
+import anime from "./assets/projects/anime.png"
 
 import todo from "./assets/projects/todo.png"
 import todo1 from "./assets/thumbnails/todo1.png"
@@ -176,6 +135,17 @@ import football19 from "./assets/thumbnails/football19.png"
 import football20 from "./assets/thumbnails/football20.png"
 import football21 from "./assets/thumbnails/football21.png"
 
+import anime1 from "./assets/thumbnails/anime1.png"
+import anime2 from "./assets/thumbnails/anime2.png"
+import anime3 from "./assets/thumbnails/anime3.png"
+import anime4 from "./assets/thumbnails/anime4.png"
+
+
+import books from "./assets/projects/books.png"
+import books1 from "./assets/thumbnails/books1.png"
+import books2 from "./assets/thumbnails/books2.png"
+import books3 from "./assets/thumbnails/books3.png"
+
 
 export const thumbnailsImages ={
    movies1,
@@ -198,35 +168,7 @@ export const thumbnailsImages ={
    crypto5,
    crypto6,
    crypto7,
-   naruto1,
-   naruto2,
-   naruto3,
-   naruto4,
-   naruto5,
-   naruto6,
-   naruto7,
-   naruto8,
-   naruto9,
-   naruto10,
-   naruto11,
-   naruto12,
-   naruto13,
-   naruto14,
-   naruto15,
-   restaurant1,
-   restaurant2,
-   restaurant3,
-   restaurant4,
-   restaurant5,
-   restaurant6,
-   restaurant7,
-   restaurant8,
-   restaurant9,
-   restaurant10,
-   restaurant11,
-   restaurant12,
-   restaurant13,
-   restaurant14,
+
    music1,
    music2,
    music3,
@@ -240,12 +182,7 @@ export const thumbnailsImages ={
    games7,
    ai1,
    ai2,
-   translate1,
-   translate2,
-   translate3,
-   pokemon1,
-   pokemon2,
-   pokemon3,
+
    todo1,
    todo2,
    todo3,
@@ -270,20 +207,26 @@ export const thumbnailsImages ={
    football19,
    football20,
    football21,
+    anime1,
+    anime2,
+    anime3,
+    anime4,
+    books1,
+    books2,
+    books3
    
 }
 export const projectImages = {
    movies,
    crypto,
-   naruto,
-   restaurant,
+    anime,
+    books,
    music,
    games,
-   euro,
-   news,
+
    ai,
-   translate,
-   pokemon,
+
+
    todo,
    football1
 }
