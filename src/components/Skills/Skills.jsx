@@ -36,10 +36,9 @@ const Skills = () => {
       </div>
       
       <div>
-        <img className="skills-images" src={images.firebase} alt="" />
-        <h6>Firebase</h6>
+        <img className="skills-images" src={images.vuejs} alt="" />
+        <h6>Vue.js</h6>
       </div>
-    
     
 
       <div className="responsive"></div>
@@ -50,9 +49,10 @@ const Skills = () => {
         <h6>Tailwind CSS</h6>
       </div>
       <div>
-        <img className="skills-images" src={images.BootStrap} alt="" />
-        <h6>Bootstrap</h6>
+        <img className="skills-images" src={images.firebase} alt="" />
+        <h6>Firebase</h6>
       </div>
+      
      
       <div>
         <img className="skills-images" src={images.Sass} alt="" />
@@ -64,9 +64,11 @@ const Skills = () => {
      
       <div className="responsive"></div>
       <div className="responsive"></div>
+   
+    
       <div>
-        <img className="skills-images" src={images.Git} alt="" />
-        <h6>Git</h6>
+        <img className="skills-images" src={images.BootStrap} alt="" />
+        <h6>Bootstrap</h6>
       </div>
     
       <div>

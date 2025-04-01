@@ -9,7 +9,7 @@ import TailwindCss from "./assets/skills/tailwind.png"
 import Sass from "./assets/skills/sass.png"
 import GitHub from "./assets/skills/github.png"
 import Git from "./assets/skills/git.png"
-
+import vuejs from "./assets/skills/vuejs.png"
 import firebase from "./assets/skills/firebase.png"
 
 
@@ -46,7 +46,7 @@ export const images = {
     Sass,
     GitHub,
     Git,
-
+    vuejs,
     firebase
 }
 
