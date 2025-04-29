@@ -50,9 +50,9 @@ export  const projectData = [
       thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
     },
     {
-      title: "Books",
+      title: "Library",
       tools: "React",
-      link: "https://suadpllana.github.io/books/",
+      link: "https://suadpllana.github.io/library/",
       image: projectImages.books,
       thumbnails: [ projectImages.books, thumbnailsImages.books1, thumbnailsImages.books2, thumbnailsImages.books3,]
     },
