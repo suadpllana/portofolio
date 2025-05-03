@@ -23,6 +23,13 @@ export  const projectData = [
       thumbnails: [projectImages.anime,  thumbnailsImages.anime1 , thumbnailsImages.anime2 , thumbnailsImages.anime3,thumbnailsImages.anime4]
     },
     {
+      title: "Football Tournament",
+      tools: "React",
+      link: "https://suadpllana.github.io/turnir-futbolli/",
+      image: projectImages.turniri,
+      thumbnails: [projectImages.turniri, thumbnailsImages.turniri1, thumbnailsImages.turniri2 ,thumbnailsImages.turniri3,thumbnailsImages.turniri4,thumbnailsImages.turniri5,thumbnailsImages.turniri6,thumbnailsImages.turniri7,thumbnailsImages.turniri8,thumbnailsImages.turniri9,thumbnailsImages.turniri10]
+    },
+    {
       title: "Music",
       tools: "React",
       link: "https://suadpllana.github.io/music/",
@@ -42,13 +49,8 @@ export  const projectData = [
   
 
    
-    {
-      title: "Games",
-      tools: "React",
-      link: "https://suadpllana.github.io/games/",
-      image: projectImages.games,
-      thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
-    },
+    
+   
     {
       title: "Library",
       tools: "React",
@@ -58,13 +60,7 @@ export  const projectData = [
     },
    
 
-    {
-      title: "To Do List",
-      tools: "React",
-      link: "https://suadpllana.github.io/to-do-list/",
-      image: projectImages.todo,
-      thumbnails: [projectImages.todo, thumbnailsImages.todo1, thumbnailsImages.todo2 ,thumbnailsImages.todo3,thumbnailsImages.todo4]
-    },
+   
    
     {
       title: "AI Image Generator",
@@ -73,7 +69,13 @@ export  const projectData = [
       image: projectImages.ai,
       thumbnails: [projectImages.ai, thumbnailsImages.ai1,thumbnailsImages.ai2]
     },
-  
+    {
+      title: "Games",
+      tools: "React",
+      link: "https://suadpllana.github.io/games/",
+      image: projectImages.games,
+      thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
+    },
 
  
   

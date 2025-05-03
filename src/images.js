@@ -143,6 +143,18 @@ import books1 from "./assets/thumbnails/books1.png"
 import books2 from "./assets/thumbnails/books2.png"
 import books3 from "./assets/thumbnails/books3.png"
 
+import turniri from "./assets/projects/turniri.png"
+import turniri1 from "./assets/thumbnails/turniri1.png"
+import turniri2 from "./assets/thumbnails/turniri2.png"
+import turniri3 from "./assets/thumbnails/turniri3.png"
+import turniri4 from "./assets/thumbnails/turniri4.png"
+import turniri5 from "./assets/thumbnails/turniri5.png"
+import turniri6 from "./assets/thumbnails/turniri6.png"
+import turniri7 from "./assets/thumbnails/turniri7.png"
+import turniri8 from "./assets/thumbnails/turniri8.png"
+import turniri9 from "./assets/thumbnails/turniri9.png"
+import turniri10 from "./assets/thumbnails/turniri10.png"
+
 
 export const thumbnailsImages ={
    movies1,
@@ -209,7 +221,19 @@ export const thumbnailsImages ={
     anime4,
     books1,
     books2,
-    books3
+    books3,
+    turniri1,
+    turniri2,
+    turniri3,
+    turniri4,
+    turniri5,
+    turniri6,
+    turniri7,
+    turniri8,
+
+    turniri9,
+    turniri10,
+    
    
 }
 export const projectImages = {
@@ -219,7 +243,7 @@ export const projectImages = {
     books,
    music,
    games,
-
+    turniri,
    ai,
 
 
