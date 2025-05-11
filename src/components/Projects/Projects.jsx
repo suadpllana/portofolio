@@ -89,7 +89,7 @@ const Projects = () => {
       </div>
 
       <h3 className="all-projects">
-        Please check all of my projects {" "}
+        Check all of my projects {" "}
         <a target="_blank" href="https://suadpllana.github.io/all-projects">
           here
         </a>

@@ -37,37 +37,13 @@ export  const projectData = [
       image: projectImages.books,
       thumbnails: [ projectImages.books, thumbnailsImages.books1, thumbnailsImages.books2, thumbnailsImages.books3,]
     },
-   
-    {
-      title: "Music",
-      tools: "React",
-      link: "https://suadpllana.github.io/music/",
-      image: projectImages.music,
-      thumbnails: [projectImages.music, thumbnailsImages.music1, thumbnailsImages.music2,thumbnailsImages.music3,thumbnailsImages.music4, thumbnailsImages.music5]
-    },
- 
     {
       title: "Crypto Prices",
       tools: "React",
       link: "https://suadpllana.github.io/crypto-prices/",
       image: projectImages.crypto,
       thumbnails: [projectImages.crypto,thumbnailsImages.crypto1,thumbnailsImages.crypto2,thumbnailsImages.crypto3,thumbnailsImages.crypto4,thumbnailsImages.crypto5,thumbnailsImages.crypto6,thumbnailsImages.crypto7]
-    },
-   
-    {
-      title: "AI Image Generator",
-      tools: "React,Sass",
-      link: "https://suadpllana.github.io/ai-image-generator/",
-      image: projectImages.ai,
-      thumbnails: [projectImages.ai, thumbnailsImages.ai1,thumbnailsImages.ai2]
-    },
-    {
-      title: "Games",
-      tools: "React",
-      link: "https://suadpllana.github.io/games/",
-      image: projectImages.games,
-      thumbnails: [projectImages.games , thumbnailsImages.games1,thumbnailsImages.games2,thumbnailsImages.games3,thumbnailsImages.games4,thumbnailsImages.games5,thumbnailsImages.games6,thumbnailsImages.games7]
-    },
+    }
 
  
   
