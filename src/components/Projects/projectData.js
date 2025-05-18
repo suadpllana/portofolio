@@ -31,11 +31,11 @@ export  const projectData = [
       thumbnails: [projectImages.anime,  thumbnailsImages.anime1 , thumbnailsImages.anime2 , thumbnailsImages.anime3,thumbnailsImages.anime4]
     },
     {
-      title: "Library",
+      title: "Music Player",
       tools: "React",
-      link: "https://suadpllana.github.io/library/",
-      image: projectImages.books,
-      thumbnails: [ projectImages.books, thumbnailsImages.books1, thumbnailsImages.books2, thumbnailsImages.books3,]
+      link: "https://suadpllana.github.io/music/",
+      image: projectImages.music,
+      thumbnails: [ projectImages.music, thumbnailsImages.music1, thumbnailsImages.music2, thumbnailsImages.music3,thumbnailsImages.music4,thumbnailsImages.music5]
     },
     {
       title: "Crypto Prices",
