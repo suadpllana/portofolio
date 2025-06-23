@@ -142,6 +142,12 @@ import books from "./assets/projects/books.png"
 import books1 from "./assets/thumbnails/books1.png"
 import books2 from "./assets/thumbnails/books2.png"
 import books3 from "./assets/thumbnails/books3.png"
+import books4 from "./assets/thumbnails/books4.png"
+import books5 from "./assets/thumbnails/books5.png"
+import books6 from "./assets/thumbnails/books6.png"
+import books7 from "./assets/thumbnails/books7.png"
+import books8 from "./assets/thumbnails/books8.png"
+import books9 from "./assets/thumbnails/books9.png"
 
 import turniri from "./assets/projects/turniri.png"
 import turniri1 from "./assets/thumbnails/turniri1.png"
@@ -230,9 +236,12 @@ export const thumbnailsImages ={
     turniri6,
     turniri7,
     turniri8,
-
     turniri9,
     turniri10,
+    books1,
+    books2,
+    books3,
+    books4,books5,books6,books7,books8,books9
     
    
 }
@@ -245,7 +254,7 @@ export const projectImages = {
    games,
     turniri,
    ai,
-
+books,
 
    todo,
    football1
