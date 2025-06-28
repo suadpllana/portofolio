@@ -44,15 +44,15 @@ const Skills = () => {
       <div className="responsive"></div>
 
       <div className="responsive"></div>
+     
       <div>
+        <img className="skills-images" src={images.nodeJs} alt="" />
+        <h6>Node js</h6>
+      </div>
+       <div>
         <img className="skills-images" src={images.TailwindCss} alt="" />
         <h6>Tailwind CSS</h6>
       </div>
-      <div>
-        <img className="skills-images" src={images.firebase} alt="" />
-        <h6>Firebase</h6>
-      </div>
-      
      
       <div>
         <img className="skills-images" src={images.Sass} alt="" />
@@ -72,8 +72,8 @@ const Skills = () => {
       </div>
     
       <div>
-        <img className="skills-images" src={images.GitHub} alt="" />
-        <h6>GitHub</h6>
+        <img className="skills-images" src={images.mongoDB} alt="" />
+        <h6>MongoDB</h6>
       </div>
      
 

@@ -22,7 +22,8 @@ import modernReact from "./assets/certificates/modernReact.png"
 import gradeCertificate from "./assets/certificates/gradeCertificate.png"
 
 
-
+import nodeJs from "./assets/skills/nodejs.png"
+import mongoDB from "./assets/skills/mongoDB.png"
 
 
 export const certificatesImages = {
@@ -42,6 +43,8 @@ export const images = {
     Redux,
     TypeScript,
     BootStrap,
+    nodeJs,
+    mongoDB,
     TailwindCss,
     Sass,
     GitHub,
@@ -87,7 +90,6 @@ import music3 from "./assets/thumbnails/music3.png"
 import music4 from "./assets/thumbnails/music4.png"
 import music5 from "./assets/thumbnails/music5.png"
 
-import games from "./assets/projects/games.png"
 import games1 from "./assets/thumbnails/games1.png"
 import games2 from "./assets/thumbnails/games2.png"
 import games3 from "./assets/thumbnails/games3.png"
@@ -97,13 +99,11 @@ import games6 from "./assets/thumbnails/games6.png"
 import games7 from "./assets/thumbnails/games7.png"
 
 
-import ai from "./assets/projects/ai.png"
 import ai1 from "./assets/thumbnails/ai1.png"
 import ai2 from "./assets/thumbnails/ai2.png"
 
 import anime from "./assets/projects/anime.png"
 
-import todo from "./assets/projects/todo.png"
 import todo1 from "./assets/thumbnails/todo1.png"
 import todo2 from "./assets/thumbnails/todo2.png"
 import todo3 from "./assets/thumbnails/todo3.png"
@@ -162,6 +162,19 @@ import turniri9 from "./assets/thumbnails/turniri9.png"
 import turniri10 from "./assets/thumbnails/turniri10.png"
 
 
+import psg from "./assets/projects/psg.png"
+import psg1 from "./assets/thumbnails/psg1.png"
+import psg2 from "./assets/thumbnails/psg2.png"
+import psg3 from "./assets/thumbnails/psg3.png"
+import psg4 from "./assets/thumbnails/psg4.png"
+import psg5 from "./assets/thumbnails/psg5.png"
+import psg6 from "./assets/thumbnails/psg6.png"
+import psg7 from "./assets/thumbnails/psg7.png"
+import psg8 from "./assets/thumbnails/psg8.png"
+import psg9 from "./assets/thumbnails/psg9.png"
+import psg10 from "./assets/thumbnails/psg10.png"
+
+
 export const thumbnailsImages ={
    movies1,
    movies2,
@@ -173,7 +186,16 @@ export const thumbnailsImages ={
    movies8,
    movies9,
    movies10,
- 
+    psg1,
+    psg2,
+    psg3,
+    psg4,
+    psg5,
+    psg6,
+    psg7,
+    psg8,
+    psg9,
+    psg10,
    crypto1,
    crypto2,
    crypto3,
@@ -251,11 +273,8 @@ export const projectImages = {
     anime,
     books,
    music,
-   games,
     turniri,
-   ai,
 books,
-
-   todo,
+psg,
    football1
 }

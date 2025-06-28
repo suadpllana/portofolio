@@ -22,7 +22,13 @@ export  const projectData = [
       image: projectImages.movies,
       thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10]
     },
-   
+     {
+      title: "PSG",
+      tools: "React, Node.js, MongoDB",
+      link: "https://psg-news.netlify.app",
+      image: projectImages.psg,
+      thumbnails: [projectImages.psg, thumbnailsImages.psg1, thumbnailsImages.psg2,thumbnailsImages.psg3,thumbnailsImages.psg4,thumbnailsImages.psg5,thumbnailsImages.psg6,thumbnailsImages.psg7,thumbnailsImages.psg8,thumbnailsImages.psg9,thumbnailsImages.psg10,]
+    },
    
     {
       title: "Anime",
@@ -39,13 +45,7 @@ export  const projectData = [
       image: projectImages.crypto,
       thumbnails: [projectImages.crypto,thumbnailsImages.crypto1,thumbnailsImages.crypto2,thumbnailsImages.crypto3,thumbnailsImages.crypto4,thumbnailsImages.crypto5,thumbnailsImages.crypto6,thumbnailsImages.crypto7]
     },
-  {
-      title: "Football Tournament",
-      tools: "React",
-      link: "https://suadpllana.github.io/turnir-futbolli/",
-      image: projectImages.turniri,
-      thumbnails: [projectImages.turniri, thumbnailsImages.turniri1, thumbnailsImages.turniri2 ,thumbnailsImages.turniri3,thumbnailsImages.turniri4,thumbnailsImages.turniri5,thumbnailsImages.turniri6,thumbnailsImages.turniri7,thumbnailsImages.turniri8,thumbnailsImages.turniri9,thumbnailsImages.turniri10]
-    },
+
  
   
   ]
