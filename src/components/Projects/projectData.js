@@ -1,7 +1,6 @@
 import { projectImages , thumbnailsImages} from "../../images";
 
 export  const projectData = [
-
    {
       title: "PSG",
       tools: "React, Node.js, MongoDB",
@@ -9,7 +8,6 @@ export  const projectData = [
       image: projectImages.psg,
       thumbnails: [projectImages.psg, thumbnailsImages.psg1, thumbnailsImages.psg2,thumbnailsImages.psg3,thumbnailsImages.psg4,thumbnailsImages.psg5,thumbnailsImages.psg6,thumbnailsImages.psg7,thumbnailsImages.psg8,thumbnailsImages.psg9,thumbnailsImages.psg10,]
     },
- 
     {
       title: "Library",
       tools: "React",
