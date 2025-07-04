@@ -9,7 +9,7 @@ const Certificates = () => {
     const pdf = new jsPDF();
     pdf.setFontSize(14);
     pdf.text(title, 10, 10);
-    pdf.addImage(image, "PNG", 10, 20, 180, 100);
+    pdf.addImage(image, "PNG", 10, 20, 150, 150);
     pdf.save(`${title}.pdf`);
   };
 
