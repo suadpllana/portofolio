@@ -1,6 +1,13 @@
 import { projectImages , thumbnailsImages} from "../../images";
 
 export  const projectData = [
+      {
+      title: "Movies",
+      tools: "React",
+      link: "https://suadpllana.github.io/movies/",
+      image: projectImages.movies,
+      thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10]
+    },
      {
       title: "Football",
       tools: "React",
@@ -16,13 +23,7 @@ export  const projectData = [
       thumbnails: [projectImages.books, thumbnailsImages.books1,thumbnailsImages.books2,thumbnailsImages.books3,thumbnailsImages.books4,thumbnailsImages.books5,thumbnailsImages.books6,thumbnailsImages.books7,thumbnailsImages.books8,thumbnailsImages.books9,]
     },
    
-    {
-      title: "Movies",
-      tools: "React",
-      link: "https://suadpllana.github.io/movies/",
-      image: projectImages.movies,
-      thumbnails: [projectImages.movies, thumbnailsImages.movies1, thumbnailsImages.movies2,thumbnailsImages.movies3,thumbnailsImages.movies4,thumbnailsImages.movies5,thumbnailsImages.movies6,thumbnailsImages.movies7,thumbnailsImages.movies8,thumbnailsImages.movies9,thumbnailsImages.movies10]
-    },
+
     {
       title: "Anime",
       tools: "React,Sass",

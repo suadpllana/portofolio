@@ -78,8 +78,8 @@ const Skills = () => {
      
 
       <div>
-        <img className="skills-images" src={images.TypeScript} alt="" />
-        <h6>TypeScript</h6>
+        <img className="skills-images" src={images.firebase} alt="" />
+        <h6>Firebase</h6>
       </div>
      
     </div>

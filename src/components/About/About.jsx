@@ -8,11 +8,11 @@ const About = () => {
       <div className="about">
         <h2 id="about">About me</h2>
         <div>
-          I am a 19-year-old second-year Computer Science student at AAB
+          I am a 19-year-old third-year Computer Science student at AAB
           College, specializing in front-end development. Through my studies, I
           have gained hands-on experience with a wide range of technologies,
-          including HTML, CSS, JavaScript, React, Redux, Sass, Bootstrap,
-          Tailwind CSS, and more. I have completed several projects that
+          including HTML, CSS, JavaScript, React, Redux, Vue.js, Node.js,
+          Tailwind CSS, mySQL and more. I have completed several projects that
           highlight my technical skills and creativity in building modern,
           responsive web applications.
         </div>
