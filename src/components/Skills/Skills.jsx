@@ -1,88 +1,77 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Skills.css"
 import { images } from '../../images'
 import { Link as ScrollLink, Element } from "react-scroll";
 
 const Skills = () => {
+  const [showAll, setShowAll] = useState(false)
+
+const skillsData = [
+  { name: 'HTML', image: images.HTML },
+  { name: 'CSS', image: images.CSS },
+  { name: 'JavaScript', image: images.JavaScript },
+  { name: 'TypeScript', image: images.TypeScript },
+  
+  { name: 'React', image: images.React },
+    { name: 'Vue.js', image: images.vuejs },
+  { name: 'React Native', image: images.reactNative },
+  { name: 'Redux', image: images.Redux },
+  { name: 'Next.js', image: images.nextJs },    
+
+  { name: 'Tailwind CSS', image: images.TailwindCss },
+  { name: 'Sass', image: images.Sass },
+  { name: 'Bootstrap', image: images.BootStrap },
+
+  { name: 'Git', image: images.Git },
+  { name: 'GitHub', image: images.GitHub },
+  { name: 'Bitbucket', image: images.bitbucket },
+
+  { name: 'Supabase', image: images.supabase },
+  { name: 'Firebase', image: images.firebase },
+
+  { name: 'Node js', image: images.nodeJs },
+  { name: 'MySQL', image: images.mySql },
+  { name: 'MongoDB', image: images.mongoDB },
+  { name: 'PHP', image: images.php },
+  { name: 'Java', image: images.java },
+  { name: 'Python', image: images.python },
+  { name: 'C#', image: images.csharp }
+];
+
+
+  const initialCount = 9
+  const displayedSkills = showAll ? skillsData : skillsData.slice(0, initialCount)
+
   return (
     <div>
-              <Element name="skills"/>
-        <h2 id="skills">Skills</h2>
-    <div className="skills">
-      <div className="responsive"></div>
-      <div>
-        <img className="skills-images" src={images.HTML} alt="" />
-        <h6>HTML</h6>
+      <Element name="skills"/>
+      <h2 id="skills">Skills</h2>
+      <div className="skills">
+        {displayedSkills.map((skill, index) => (
+          <div key={index}>
+            <img className="skills-images" src={skill.image} alt={skill.name} />
+            <h6>{skill.name}</h6>
+          </div>
+        ))}
       </div>
-
-      <div>
-        <img className="skills-images" src={images.CSS} alt="" />
-        <h6>CSS</h6>
+      <div className="skills-button-container">
+        {!showAll && skillsData.length > initialCount && (
+          <button 
+            className="skills-button"
+            onClick={() => setShowAll(true)}
+          >
+            Show More
+          </button>
+        )}
+        {showAll && (
+          <button 
+            className="skills-button"
+            onClick={() => setShowAll(false)}
+          >
+            Show Less
+          </button>
+        )}
       </div>
-      <div>
-        <img className="skills-images" src={images.JavaScript} alt="" />
-        <h6>JavaScript</h6>
-      </div>
-      <div className="responsive"></div>
-      <div className="responsive"></div>
-
-      <div>
-        <img className="skills-images"src={images.React} alt="" />
-        <h6>React</h6>
-      </div>
-      <div>
-        <img className="skills-images" src={images.Redux} alt="" />
-        <h6>Redux</h6>
-      </div>
-      
-      <div>
-        <img className="skills-images" src={images.vuejs} alt="" />
-        <h6>Vue.js</h6>
-      </div>
-    
-
-      <div className="responsive"></div>
-
-      <div className="responsive"></div>
-     
-      <div>
-        <img className="skills-images" src={images.nodeJs} alt="" />
-        <h6>Node js</h6>
-      </div>
-       <div>
-        <img className="skills-images" src={images.TailwindCss} alt="" />
-        <h6>Tailwind CSS</h6>
-      </div>
-     
-      <div>
-        <img className="skills-images" src={images.Sass} alt="" />
-        <h6>Sass</h6>
-      </div>
-
-   
-      
-     
-      <div className="responsive"></div>
-      <div className="responsive"></div>
-   
-    
-      <div>
-        <img className="skills-images" src={images.BootStrap} alt="" />
-        <h6>Bootstrap</h6>
-      </div>
-    
-      <div>
-        <img className="skills-images" src={images.mongoDB} alt="" />
-        <h6>MongoDB</h6>
-      </div>
-     
-
-      <div>
-        <img className="skills-images" src={images.firebase} alt="" />
-        <h6>Firebase</h6>
-      </div>
-     
-    </div>
     </div>
   )
 }

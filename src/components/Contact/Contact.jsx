@@ -22,7 +22,6 @@ const Contact = () => {
         <p className="emoji">✉️</p>
         <h3 className="description">Email</h3>
         <p className="info">suadpllana14@gmail.com</p>
-        <p className="info">suad.pllana@universitetiaab.com</p>
       </div>
       <div className="responsive"></div>
     </div>

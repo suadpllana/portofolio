@@ -1,7 +1,8 @@
 .skills{
-    width: 100%;
+    width: 50%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
     row-gap: 3rem;  
 }
 .skills div{
@@ -28,3 +29,32 @@
     color: rgb(54, 54, 212);;
 }
 
+.skills-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.skills-button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(54, 54, 212);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skills-button:hover {
+    background-color: rgb(40, 40, 160);
+}
+
+@media (max-width: 768px) {
+    .skills{
+        width: 100%;
+        margin: 0;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;  
+    }
+}

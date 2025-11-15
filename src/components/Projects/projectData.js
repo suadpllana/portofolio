@@ -17,7 +17,7 @@ export  const projectData = [
     },
     {
       title: "Library",
-      tools: "React",
+      tools: "React, Supabase",
       link: "https://suadpllana.github.io/library",
       image: projectImages.books,
       thumbnails: [projectImages.books, thumbnailsImages.books1,thumbnailsImages.books2,thumbnailsImages.books3,thumbnailsImages.books4,thumbnailsImages.books5,thumbnailsImages.books6,thumbnailsImages.books7,thumbnailsImages.books8,thumbnailsImages.books9,]

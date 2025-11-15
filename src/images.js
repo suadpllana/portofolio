@@ -24,7 +24,41 @@ import gradeCertificate from "./assets/certificates/gradeCertificate.png"
 
 import nodeJs from "./assets/skills/nodejs.png"
 import mongoDB from "./assets/skills/mongoDB.png"
-
+import mySql from "./assets/skills/mySql.png"
+import bitbucket from "./assets/skills/bitbucket.png"
+import supabase from "./assets/skills/supabase.png"
+import java from "./assets/skills/java.png"
+import python from "./assets/skills/python.png"
+import php from "./assets/skills/php.png"
+import csharp from "./assets/skills/csharp.png"
+import reactNative from "./assets/skills/reactNative.png"
+import nextJs from "./assets/skills/nextJs.png"
+export const images = {
+    HTML,
+    CSS,
+    JavaScript,
+    reactNative,
+    csharp,
+    nextJs,
+    React,
+    python,
+    php,
+    supabase,
+    Redux,
+    TypeScript,
+    BootStrap,
+    bitbucket,
+    java,
+    nodeJs,
+    mongoDB,
+    TailwindCss,
+    Sass,
+    GitHub,
+    Git,
+    vuejs,
+    mySql,
+    firebase
+}
 
 export const certificatesImages = {
     fCCJS,
@@ -35,23 +69,7 @@ export const certificatesImages = {
 }
 
 
-export const images = {
-    HTML,
-    CSS,
-    JavaScript,
-    React,
-    Redux,
-    TypeScript,
-    BootStrap,
-    nodeJs,
-    mongoDB,
-    TailwindCss,
-    Sass,
-    GitHub,
-    Git,
-    vuejs,
-    firebase
-}
+
 
 
 

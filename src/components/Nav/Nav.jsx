@@ -28,6 +28,9 @@ const Nav = () => {
             <li className="nav-item">
               <ScrollLink className="scroll-link" to="about" smooth={true} duration={100} offset={-60}>About</ScrollLink>
             </li>
+                <li className="nav-item">
+              <ScrollLink className="scroll-link" to="experience" smooth={true} duration={100} offset={-115}>Experience</ScrollLink>
+            </li> 
             <li className="nav-item">
               <ScrollLink className="scroll-link" to="skills" smooth={true} duration={100} offset={-60}>Skills</ScrollLink>
             </li>
